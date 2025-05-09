@@ -1,12 +1,14 @@
 {
     "mcpServers": {
         "weather": {
-            "command": "uv",
+            "command": "/Users/rayz/.local/bin/uv",
             "args": [
                 "--directory",
-                "/ABSOLUTE/PATH/TO/waii-mcp-hands-on-lab",
+                "/Users/rayz/waii-mcp-hands-on-lab",
                 "run",
-                "servers/weather.py"
+                "servers/weather.py",
+                "--api-key",
+                "5479ff03387750b5aff4dbccd56c8dcf7e9c2428f88fc70b07c7deb9d5c7cbfd"
             ]
         }
     }
